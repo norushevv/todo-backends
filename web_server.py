@@ -1,6 +1,6 @@
-from flask import Flask
 from resources import Entry, EntryManager
 from flask import Flask, request
+import requests
 
 app = Flask(__name__)
 
